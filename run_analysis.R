@@ -2,19 +2,19 @@ library(reshape2)
 
 
 
-##filename <- "getdata_projectfiles_UCI HAR Dataset.zip"
+filename <- "getdata_projectfiles_UCI HAR Dataset.zip"
 
 
 
 ## Download and unzip the dataset:
 
-##if (!file.exists(filename)){
+if (!file.exists(filename)){
   
-##  fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
+ fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
   
-  ##download.file(fileURL, filename)
+  download.file(fileURL, filename)
   
-##}  
+}  
 
 if (!file.exists("UCI HAR Dataset")) { 
   
